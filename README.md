@@ -11,8 +11,8 @@ Please click **[here](https://youtu.be/tP_MBZfZwok)** to watch the functional vi
 
 To explore the world of self-help quotes, simply follow these steps:
 
-git clone https://github.com/TechPodx/Portfolio-Projects.git .
-cd random-quotes-generator.
+git clone https://github.com/TechPodx/Portfolio-Projects.git.<br>
+cd random-quotes-generator.<br>
 open index.html.
 
 ###  Please Note
