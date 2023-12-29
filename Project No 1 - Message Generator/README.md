@@ -2,7 +2,6 @@
 # Project Name: **Message Generator**
 ##### Date: 12/12/2023
 
-
 ## Preview
 
 ![Preview](https://github.com/TechPodx/Portfolio-Projects/blob/801c37c633dbed185f00d8caebac16f03a4fcb65/Project%20No%201%20-%20Message%20Generator/Resources/Preview/Preview.gif)
