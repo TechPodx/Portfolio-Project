@@ -1,0 +1,180 @@
+/* General Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body  {
+  margin: 0;
+  padding: 0;
+  background-color: #F0DBAF;
+}
+
+#header button {
+  position: fixed;
+  background-color: transparent;
+  border: none;
+  left: 2%;
+  top: 2%;
+}
+
+#header img {
+  height: 4rem;
+}
+
+#header img:hover {
+  transform: scale(1.1) rotate(360deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#header img:active {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+header h2 {
+  position: fixed;
+  left: 36%;
+  top: 2.5%;
+  color: #7ED7C1;
+  background-color: #B06161;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  font-size: 2.5rem;
+}
+
+header h2:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+/* styling main section */
+main  {
+  position: relative;
+  top: 8rem;
+}
+
+#main-content {
+  position: relative;
+  background-color:gray;
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  border: 0.3rem solid rgb(61, 59, 59);
+  border-radius: 0rem 4rem 0rem 4rem;
+}
+/* setting up background video */
+#background-video {
+  position: absolute; 
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+}
+/* setting up text printing window */
+#display {
+  width: 70%;
+  height: 40vh;
+  margin: 4rem 6rem 8rem 6rem;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 4rem;
+  border:2px solid rgba(255, 255, 255, 0.5);
+  border-right:2px solid rgba(255, 255, 255, 0.2);
+  border-bottom:2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display.no-content:hover  {
+  backdrop-filter: blur(20px);
+  transition: 0.5s;
+}
+
+
+
+#text-content {
+  z-index: 1;
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+  max-height: 230px;
+  margin-top: 1rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+#text-content::-webkit-scrollbar {
+  width: 10px;
+  
+
+}
+
+#text-content::-webkit-scrollbar-track {
+  background: rgba(204,152,133,1);
+  border-radius: 20px;
+}
+
+#text-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(#7ED7C1, #DC8686);
+  border-radius: 20px;
+  border: solid black 0.1px;
+}
+
+#text-content:hover {
+  color: rgba(9, 38, 53, 1);
+  font-weight: bold;
+  transition: 0.5s;
+} 
+
+#text-content:hover #display {
+  background: rgba(26, 25, 25, 0.9);
+}
+
+/*styling buttons */
+ #button-container {
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  bottom: 3rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+ }
+
+.button {
+  
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.7rem;
+  width: 12rem;
+  background-color: transparent;
+  border-radius: 2rem;
+  border: solid black 1px;
+  padding: 0.4rem;
+  box-shadow: 0px 1px 24px rgba(255, 255, 255, 0.9);
+}
+
+.button:hover {
+  color: #7ED7C1;
+  background-color: #F0DBAF;
+  border: solid #7ED7C1 1px;
+  transition: 0.5s;
+}
+
+.button:active {
+  transform: scale(0.98);
+  box-shadow: 0px 1px 24px rgba(255, 13, 134, 1);
+  transition: 0.1s;
+}

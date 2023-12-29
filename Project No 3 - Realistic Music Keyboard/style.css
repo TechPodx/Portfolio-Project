@@ -1,0 +1,190 @@
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./Resources/Images/Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+#main-header {
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  background-color: rgb(244, 242, 126, 0.70);
+  padding: 0.10em 0.40em 0.10em 0.40em;
+  border-radius: 1em;
+  font-weight: bold;
+  cursor: default;
+  user-select: none;
+}
+
+header div {
+  background-color: #da0c81;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #52D3D8;
+  color: #000000;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  padding: 0em 0.40em 0em 0.40em;
+  box-shadow: 5px 5px 12px #000000;
+  position: absolute;
+  right: 2%;
+  top: 10%;
+}
+header div:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+  background-color: #3887BE;
+  cursor: pointer;
+}
+header div:active {
+  background-color: #65B741;
+  font-weight: bold;
+  transform: scale(0.98);
+  transition: 0.05s;
+  user-select: none;
+}
+#speaker {
+  padding-left: 0.3em;
+}
+
+#description {
+  font-family: 'Cinzel', serif;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  font-weight: 600;
+  color: #F4F27E;
+  text-align: center;
+  position: absolute;
+  top: 2%;
+  cursor: default;
+}
+#description:hover  {
+  background: linear-gradient(left, #FFC0D9, #8ACDD7);
+  color: #da0c81;
+  transition: color 0.5s ease-in-out;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  height: 37em;
+  width: 100%;
+  position: relative;
+}
+
+#keyboard-container {
+  display: flex;
+  position: absolute;
+  padding: 4em 1em 1em 1em;
+  border-radius: 0.62em;
+  background-color: #000000;
+  box-shadow: 0 2em 4em rgba(7, 0, 53, 0.25);
+}
+
+#wave {
+  position: absolute;
+  left: -7%;
+}
+#notes {
+  position: absolute;
+}
+
+/* Styling switch set */
+#switch-set {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2em;
+  bottom: 24.8%;
+  z-index: 1;
+}
+#switch-set img, div {
+  height: 2.6em;
+}
+#switch-set div:nth-child(2), 
+#switch-set div:nth-child(3),
+#switch-set div:nth-child(4),
+#switch-set div:nth-child(6),
+#switch-set div:nth-child(7),
+#switch-set div:nth-child(9) {
+  cursor: url(./Resources/Images/hand-cursor.png) 15 10, auto;
+}
+#switch-set div:nth-child(5),
+#switch-set div:nth-child(8)  {
+  cursor: url(./Resources/Images/tiny1-35.png) 15 10, auto;
+}
+
+#musicBtn {
+  border-radius: 0.5em;
+}
+
+#themeBtn, #powerBtn {
+  border-radius: 5em;
+}
+
+/* Styling Keys */
+.white-keys {
+  width: 4.37em;
+  height: 17.5em;
+  background-color: #ffffff;
+  border: 2px solid #24272e;
+  border-radius: 0 0 0.3em 0.3em;
+  box-sizing: border-box;
+  cursor: default;
+  user-select: none;
+  cursor: url();
+  cursor: url(./Resources/Images/hand-cursor.png) 15 0, auto;
+}
+.white-keys:hover {
+  background-color: #ebebeb;
+}
+
+.black-keys {
+  width: 2.5em;
+  height: 10em;
+  border-radius: 0 0 0.3em 0.3em;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #070a0f;
+  cursor: url(./Resources/Images/hand-cursor.png) 15 0, auto;
+  z-index: 1;
+}
+.black-keys:hover {
+  background-color: #24272e;
+
+}
+.white-keys:active, .black-keys:active {
+  transform: scaleY(0.99);
+}
