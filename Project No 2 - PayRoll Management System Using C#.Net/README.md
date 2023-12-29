@@ -7,19 +7,19 @@ This is a simple Payroll Management System project designed for a small-scale co
 
 #### Loading and Login
 
-![Loading & Login]()
+![Loading & Login](https://github.com/TechPodx/Portfolio-Projects/blob/f7019118e55e8d850ab2c4c2395a74ab1e510ccd/Project%20No%202%20-%20PayRoll%20Management%20System%20Using%20C%23.Net/Preview/1.gif)
 
 #### Home
 
-![Main Menu]()
+![Main Menu](https://github.com/TechPodx/Portfolio-Projects/blob/f7019118e55e8d850ab2c4c2395a74ab1e510ccd/Project%20No%202%20-%20PayRoll%20Management%20System%20Using%20C%23.Net/Preview/2.gif)
 
 #### Employee Management Section
 
-![Emp Management]()
+![Emp Management](https://github.com/TechPodx/Portfolio-Projects/blob/f7019118e55e8d850ab2c4c2395a74ab1e510ccd/Project%20No%202%20-%20PayRoll%20Management%20System%20Using%20C%23.Net/Preview/3.gif)
 
 #### Payroll Management Section
 
-![Payroll Mng]()
+![Payroll Mng](https://github.com/TechPodx/Portfolio-Projects/blob/f7019118e55e8d850ab2c4c2395a74ab1e510ccd/Project%20No%202%20-%20PayRoll%20Management%20System%20Using%20C%23.Net/Preview/4.gif)
 
 ## Overview
 
