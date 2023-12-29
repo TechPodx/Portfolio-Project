@@ -22,3 +22,7 @@ open index.html.
 We are committed to enhancing the accessibility and usability of this site. The next milestone involves making the website fully responsive to accommodate different screen sizes and devices.
 
 - Within the main menu, the only functional feature is the "Spark Your Passion" generator. This serves as a demonstration of generating random messages.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
