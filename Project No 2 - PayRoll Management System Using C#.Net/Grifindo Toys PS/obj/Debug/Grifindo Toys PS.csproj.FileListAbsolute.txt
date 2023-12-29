@@ -18,3 +18,22 @@ A:\Project X\Software Eng\Esoft\Semester 01\UNIT_01 - Programming\Assessment\Cod
 A:\Project X\Software Eng\Esoft\Semester 01\UNIT_01 - Programming\Assessment\Coding\Visual Studio\Grifindo Toys Payroll System\Grifindo Toys PS\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Timer.resources
 A:\Project X\Software Eng\Esoft\Semester 01\UNIT_01 - Programming\Assessment\Coding\Visual Studio\Grifindo Toys Payroll System\Grifindo Toys PS\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Login.resources
 A:\Project X\Software Eng\Esoft\Semester 01\UNIT_01 - Programming\Assessment\Coding\Visual Studio\Grifindo Toys Payroll System\Grifindo Toys PS\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Report_Generation.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\bin\Debug\Grifindo Toys PS.exe.config
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\bin\Debug\Grifindo Toys PS.exe
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\bin\Debug\Grifindo Toys PS.pdb
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\bin\Debug\Guna.UI.dll
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo Toys PS.csproj.AssemblyReference.cache
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Configuration_Settings.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Employee_Management.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Login.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Main.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Properties.Resources.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Reason_and_Date_of_Deletion.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Report_Generation.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Salary_Tracker.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo_Toys_PS.Timer.resources
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo Toys PS.csproj.GenerateResource.cache
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo Toys PS.csproj.CoreCompileInputs.cache
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo Toys PS.csproj.CopyComplete
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo Toys PS.exe
+A:\Project X\Software Eng\GitHub\Git Repositories\Portfolio-Projects\Project No 2 - PayRoll Management System Using C#.Net\Grifindo Toys PS\obj\Debug\Grifindo Toys PS.pdb
