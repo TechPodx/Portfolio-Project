@@ -250,6 +250,7 @@ document.addEventListener("DOMContentLoaded", function() {
   };
   /*function for theme change button (5th child)*/
   const bodyBeforeStyle = document.styleSheets[0].cssRules[0].style;
+
   let saveThemeChangeEvent;
   let ThemeChangeSwitchStatus = 'off'
   let stopExecuteThemeBtn = true;
