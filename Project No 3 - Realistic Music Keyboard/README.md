@@ -2,14 +2,11 @@
 
 Welcome to the Realistic Music Keyboard project! This keyboard aims to provide users with a realistic playing experience, simulating an electric keyboard with additional cool features.
 
-**Please read How to Use section for seamless functionality**
+### Important **Please read How to Use section for seamless functionality**
 
 ## Preview
 
 ![Preview](https://github.com/TechPodx/Portfolio-Projects/blob/c5b3cd04702a7177ad66ee7ae7ef3358954230fb/Project%20No%203%20-%20Realistic%20Music%20Keyboard/Resources/Preview/Preview.gif)
-
-**Use Visual Studio Code:**
-   Open the project using Visual Studio Code and utilize tools like Live Server for a seamless local development experience.
 
 ## Features
 
