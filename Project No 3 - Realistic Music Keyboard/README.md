@@ -6,6 +6,9 @@ Welcome to the Realistic Music Keyboard project! This keyboard aims to provide u
 
 ![Preview](https://github.com/TechPodx/Portfolio-Projects/blob/c5b3cd04702a7177ad66ee7ae7ef3358954230fb/Project%20No%203%20-%20Realistic%20Music%20Keyboard/Resources/Preview/Preview.gif)
 
+**Use Visual Studio Code:**
+   Open the project using Visual Studio Code and utilize tools like Live Server for a seamless local development experience.
+
 ## Features
 
 ### Switches (From Left)
@@ -35,7 +38,7 @@ Listen to the user guide located at the top right corner for assistance.
 
 To experience the realistic music keyboard:
 1. Clone the repository.
-2. Open the `index.html` file in your preferred browser (Chrome recommended).
+2. Open the `index.html` file via VS code in your browser (Chrome recommended).
 
 Feel free to explore the different features and enjoy playing music!
 
