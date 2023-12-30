@@ -2,7 +2,7 @@
 
 Welcome to the Realistic Music Keyboard project! This keyboard aims to provide users with a realistic playing experience, simulating an electric keyboard with additional cool features.
 
-### Important **Please read How to Use section for seamless functionality**
+## Important **Please read How to Use section for seamless functionality**
 
 ## Preview
 
