@@ -5,7 +5,7 @@ import { useStateProvider } from "../Utilities/StateProvider";
 import { AiFillClockCircle } from "react-icons/ai";
 import { reducerCases } from "../Utilities/Constants";
 
-export default function Body({ headerBackground }) {
+export default function Body() {
   const [{ token, selectedPlaylist, selectedPlaylistId }, dispatch] =
     useStateProvider();
 
@@ -20,6 +20,7 @@ export default function Body({ headerBackground }) {
           },
         }
       );
+
       const selectedPlaylist = {
         id: response.data.id,
         name: response.data.name,
@@ -66,6 +67,7 @@ export default function Body({ headerBackground }) {
         },
       }
     );
+
     if (response.status === 204) {
       const currentPlaying = {
         id,
@@ -85,7 +87,7 @@ export default function Body({ headerBackground }) {
     return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
   };
   return (
-    <Container headerBackground={headerBackground}>
+    <Container>
       {selectedPlaylist && (
         <>
           <div className="playlist">
@@ -208,7 +210,7 @@ const Container = styled.div`
       top: 15vh;
       padding: 1rem 3rem;
       transition: 0.3s ease-in-out;
-      background-color: ${({ headerBackground }) =>
+      background-color: ${(headerBackground) =>
         headerBackground ? "#000000dc" : "none"};
     }
     .tracks {
