@@ -1,43 +1,55 @@
 import { reducerCases } from "./Constants";
 
-// Create the initialState and reducer function
 export const initialState = {
-  token: null, // This is spotify token
-  playlists: [], // Initialize playlists as an empty array
-  userInfo: null, // Intial value of userInfo set to null
-  selectedPlaylistId: "37i9dQZF1DWYp5sAHdz27Y", 
+  token: null,
+  userInfo: null,
+  playlists: [],
+  currentPlaying: null,
+  playerState: false,
   selectedPlaylist: null,
+  selectedPlaylistId: "37i9dQZF1E37jO8SiMT0yN",
 };
 
 const reducer = (state, action) => {
-  switch(action.type) {
-    case reducerCases.SET_TOKEN: {  
+  switch (action.type) {
+    case reducerCases.SET_TOKEN:
       return {
         ...state,
         token: action.token,
       };
-    }
-    case reducerCases.SET_PLAYLISTS: {
-      return {
-        ...state,
-        playlists: action.playlists,
-      };
-    }
-    case reducerCases.SET_USER: {
+    case reducerCases.SET_USER:
       return {
         ...state,
         userInfo: action.userInfo,
       };
-    }
-    case reducerCases.SET_PAYLIST: {
+    case reducerCases.SET_PLAYLISTS:
+      return {
+        ...state,
+        playlists: action.playlists,
+      };
+    case reducerCases.SET_PLAYING:
+      return {
+        ...state,
+        currentPlaying: action.currentPlaying,
+      };
+    case reducerCases.SET_PLAYER_STATE:
+      return {
+        ...state,
+        playerState: action.playerState,
+      };
+    case reducerCases.SET_PLAYLIST:
       return {
         ...state,
         selectedPlaylist: action.selectedPlaylist,
-      }
-    }
-    default: 
+      };
+    case reducerCases.SET_PLAYLIST_ID:
+      return {
+        ...state,
+        selectedPlaylistId: action.selectedPlaylistId,
+      };
+    default:
       return state;
-  };
+  }
 };
 
 export default reducer;

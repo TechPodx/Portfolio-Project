@@ -1,18 +1,17 @@
-import React from 'react';
-import styled from 'styled-components';
-import { IoLibrary } from 'react-icons/io5';
-import { MdHomeFilled, MdSearch } from 'react-icons/md';
-import Playlists from './Playlists' ;
-
+import React from "react";
+import styled from "styled-components";
+import { MdHomeFilled, MdSearch } from "react-icons/md";
+import { IoLibrary } from "react-icons/io5";
+import Playlists from "./Playlists";
 export default function Sidebar() {
   return (
     <Container>
-      <div className='top_links'>
-        <div className='logo'>
-        <img 
-          src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" 
-          alt="Spotify Logo" 
-        />
+      <div className="top__links">
+        <div className="logo">
+          <img
+            src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
+            alt="spotify"
+          />
         </div>
         <ul>
           <li>
@@ -31,17 +30,17 @@ export default function Sidebar() {
       </div>
       <Playlists />
     </Container>
-  )
+  );
 }
-  
+
 const Container = styled.div`
-  background-color: #000;
+  background-color: black;
   color: #b3b3b3;
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
-  .top_links {
+  .top__links {
     display: flex;
     flex-direction: column;
     .logo {
@@ -64,11 +63,9 @@ const Container = styled.div`
         cursor: pointer;
         transition: 0.3s ease-in-out;
         &:hover {
-          color: #fff;
+          color: white;
         }
       }
     }
   }
-
-
 `;

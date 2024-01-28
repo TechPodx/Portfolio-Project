@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {StateProvider} from './Utilities/StateProvider';
-import reducer, {initialState} from './Utilities/reducer'; 
+import reducer, {initialState} from './Utilities/Reducer'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
