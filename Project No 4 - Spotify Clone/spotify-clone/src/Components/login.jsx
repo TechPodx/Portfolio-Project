@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import SoundCoreLogo from '../Resources/SoundCore.png';
 
 export default function Login() {
   const handleClick = async () => {
@@ -22,10 +23,10 @@ export default function Login() {
   return (
     <Container>
       <img
-        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Black.png"
-        alt="spotify"
+        src={SoundCoreLogo}
+        alt="SoundCore Logo"
       />
-      <button onClick={handleClick}>Connect Spotify</button>
+      <button onClick={handleClick}>Connect SoundCore</button>
     </Container>
   );
 }
@@ -37,18 +38,24 @@ const Container = styled.div`
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-color: #1db954;
+  background-color: #52D3D8;
   gap: 5rem;
   img {
-    height: 20vh;
+    height: 35vh;
+    border-radius: 3rem;
   }
   button {
     padding: 1rem 5rem;
     border-radius: 5rem;
     background-color: black;
-    color: #49f585;
+    color: #3887BE;
     border: none;
     font-size: 1.4rem;
     cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      color: #e7235a;
+      border: 1px solid #e7235a;
+    }
   }
 `;
