@@ -1,0 +1,129 @@
+.skills {
+  &_content-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    &_inner-content {
+      flex: 1;
+      // display: flex;
+      // flex-direction: column;
+      align-items: center;
+      min-width: 250px;
+
+      &_category-text {
+        display: inline-block;
+        color: var(--blue-theme-main-color);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1rem;
+        letter-spacing: 0.5px;
+        position: relative;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        border-bottom: 2px solid var(--blue-theme-main-color);
+      }
+
+      &_category-text::before,
+      &_category-text::after {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 5px;
+        background-color: var(--blue-theme-main-color);
+        bottom: -1px;
+      }
+
+      &_category-text::before {
+        left: 0;
+      }
+
+      &_category-text::after {
+        right: 0;
+      }
+
+      &_progressbar-container {
+        width: 100%;
+      }
+
+      .progressbar-wrapper {
+        padding: 40px 0px 0px 0px;
+
+        p {
+          font-size: 1.6rem;
+          margin: 0 0 10px;
+          font-weight: 500;
+          text-transform: uppercase;
+          color: var(--blue-theme-sub-text-color);
+          display: flex;
+          align-items: center;
+
+          img {
+            padding-left: 8px;
+            width: 36px;
+            animation: iconScaled 2s linear infinite;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    &_content-wrapper {
+      flex-direction: column;
+      align-items: center;
+
+      &_inner-content {
+        width: 80%;
+      }
+    }
+  }
+  .skills_content-wrapper_inner-content_progressbar-container {
+    margin-bottom: 20px;
+  }
+}
+
+@keyframes iconScaled {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.04);
+  }
+  20% {
+    transform: scale(1.08);
+  }
+  30% {
+    transform: scale(1.12);
+  }
+  40% {
+    transform: scale(1.16);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  60% {
+    transform: scale(1.16);
+  }
+  70% {
+    transform: scale(1.12);
+  }
+  80% {
+    transform: scale(1.08);
+  }
+  90% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

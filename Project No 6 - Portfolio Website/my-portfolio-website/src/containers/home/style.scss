@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+.home {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &_text_wrapper {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 4rem;
+
+    h1 {
+      color: var(--blue-theme-main-color);
+      margin: 0px;
+      font-weight: 100;
+      font-size: 6rem;
+      font-family: "Special Elite", system-ui;
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 95rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .top_texts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+      }
+
+      .span1 {
+        font-family: "Special Elite", system-ui;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
+      }
+
+      .span1_sub {
+        font-family: "Special Elite", system-ui;
+      }
+
+      .span2 {
+        position: relative;
+        font-family: "Special Elite", system-ui;
+        padding: 1.3rem 0rem 1.3rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .span2::before {
+        content: "";
+        color: #ff7f50;
+        animation: words 40s infinite;
+      }
+
+      .span2::after {
+        content: "";
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 100%;
+        background-color: var(--blue-theme-background-color);
+        border-left: 2px solid #ff7f50;
+        right: -8px;
+        animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+      }
+    }
+  }
+
+  &_contact_me_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+    button {
+      cursor: pointer;
+      padding: 10px 70px;
+      font-size: 2rem;
+      background: transparent;
+      color: var(--blue-theme-main-color);
+      border: 1.5px solid var(--blue-theme-main-color);
+      border-radius: 4px;
+      font-weight: 500;
+
+      &:hover {
+        background: var(--blue-theme-main-color);
+        color: #000;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .home_text_wrapper h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+    width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+  .home_text_wrapper h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+  .home_text_wrapper h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+    width: 75rem;
+  }
+}
+
+@keyframes cursor1 {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,
+  10% {
+    content: "I Transform Data into Insights";
+  }
+  11%,
+  20% {
+    content: "I Analyze Big Data";
+  }
+  21%,
+  30% {
+    content: "I Optimize Data Algorithms";
+  }
+  31%,
+  40% {
+    content: "I Harness Machine Learning";
+  }
+  41%,
+  50% {
+    content: "I Build Predictive Models";
+  }
+  51%,
+  60% {
+    content: "Create Data Visualizations";
+  }
+  61%,
+  70% {
+    content: "I Solve Complex Problems";
+  }
+  71%,
+  80% {
+    content: "I Analyze Statistics";
+  }
+  81%,
+  90% {
+    content: "I Drive Business Decisions";
+  }
+  91%,
+  100% {
+    content: "I Develop AI Solutions";
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}

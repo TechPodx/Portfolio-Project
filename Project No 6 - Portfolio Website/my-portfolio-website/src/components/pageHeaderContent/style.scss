@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px dashed var(--blue-theme-main-color);
+
+  &_main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      line-height: 1rem;
+      text-transform: capitalize;
+      color: var(--blue-theme-main-color);
+      display: flex;
+      flex-grow: 1;
+    }
+
+    span {
+      img {
+        width: 30px;
+        border-radius: 2px;
+        transition: 0.1s;
+
+        &:hover {
+          border: rgb(238, 29, 61) solid 3px;
+        }
+
+        &:active {
+          transform: scale(0.9);
+          border: rgb(66, 243, 35) solid 2px;
+        }
+      }
+    }
+  }
+
+  span {
+    svg {
+      color: var(--blue-theme-main-color);
+    }
+  }
+}
