@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "IslandMoments";
+  src: url(../../fonts/IslandMoments-Regular.ttf);
+}
+
+@font-face {
+  font-family: "JacquesNormal";
+  src: url(../../fonts/JacquesFrancois-Regular.ttf);
+}
+
+.homePage {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  #flower_1 {
+    position: absolute;
+    width: 180px;
+    top: 50px;
+    left: 50px;
+  }
+
+  #flower_2 {
+    position: absolute;
+    width: 180px;
+    top: 50px;
+    right: 50px;
+  }
+  #flower_3 {
+    position: absolute;
+    width: 180px;
+    bottom: 50px;
+    right: 50px;
+  }
+  #flower_4 {
+    position: absolute;
+    width: 140px;
+
+    bottom: 50px;
+    left: 50px;
+  }
+
+  .homePage_form {
+    width: 60%;
+    height: 90vh;
+    background-color: #ee9191;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    h1 {
+      font-family: "IslandMoments";
+      font-size: 80px;
+      font-weight: 100;
+      margin: 0rem 0rem 2rem 0rem;
+      padding: 0;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: center; */
+      width: 100%;
+      /* height: fit-content; */
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+
+        label {
+          font-family: "JacquesNormal";
+          font-size: 25px;
+          font-weight: 400;
+          line-height: 36.93px;
+          display: block;
+          text-align: left;
+          margin-left: 80px;
+          span {
+            color: red;
+          }
+        }
+
+        input {
+          background-color: #4f4646;
+          width: 450px;
+          padding: 18px;
+          border-radius: 5px;
+          font-family: "JacquesNormal";
+          font-size: 15px;
+          margin-right: 80px;
+          color: #ffffff;
+        }
+
+        input:focus::placeholder {
+          color: #ffffff;
+        }
+
+        input[type="number"]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+
+      button {
+        background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.86) 0%,
+          rgba(50, 50, 50, 0.86) 47.5%,
+          rgba(102, 102, 102, 0.86) 100%
+        );
+        width: 250px;
+        height: 60px;
+        border-radius: 5px;
+        font-family: "JacquesNormal";
+        font-size: 20px;
+        transition: 0.5s;
+      }
+
+      button:hover {
+        cursor: pointer;
+        color: #ffffff;
+        scale: 1.05;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .homePage {
+    .homePage_form {
+      width: 85%;
+      height: 70vh;
+
+      form {
+        margin: 2rem;
+        .container {
+          gap: 4rem;
+
+          label {
+            font-family: "JacquesNormal";
+            font-size: 20px;
+          }
+
+          input {
+            background-color: #4f4646;
+            width: 450px;
+            height: 58px;
+            border-radius: 5px;
+          }
+        }
+
+        button {
+          background: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.86) 0%,
+            rgba(50, 50, 50, 0.86) 47.5%,
+            rgba(102, 102, 102, 0.86) 100%
+          );
+          width: 250px;
+          height: 60px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
